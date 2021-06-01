@@ -1,6 +1,6 @@
 # Computer Application in JAVA
 
-This repository contains resources, questions & answers of Class IX (ICSE) JAVA.
+This repository contains resources, questions & answers of Class X (ICSE) JAVA.
 
 ## Chapters
 
