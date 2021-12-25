@@ -34,3 +34,5 @@ As we reached to 1, 19 is a Happy Number.
 Write a menu driven program using switch-case to send either character „A‟ or „H‟ as
 parameter and input the numbers to check if it an Amicable Number or Happy number or
 none of these.
+
+Program Here : [Link](https://github.com/Shiv-Learning-Cente/Computer-Applications-X/blob/main/Project/AmbicableHappy.java)
