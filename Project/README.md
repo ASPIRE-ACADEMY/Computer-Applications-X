@@ -10,8 +10,9 @@
 + Write Conclusion & Acknowledgement
 
 ----------------------------------------------------------------------------------------------------------------------------
+# 1
 
-1) Amicable numbers are two different numbers so related that the sum of the proper divisors of
+Amicable numbers are two different numbers so related that the sum of the proper divisors of
 each is equal to the other number. <br>
 
 For example, the smallest pair of amicable numbers is (220, 284); for the proper divisors of <br>
@@ -36,3 +37,27 @@ parameter and input the numbers to check if it an Amicable Number or Happy numbe
 none of these.
 
 Program Here : [Link](https://github.com/Shiv-Learning-Cente/Computer-Applications-X/blob/main/Project/AmbicableHappy.java)
+
+----------------------------------------------------------------------------------------------------------------------------
+# 2
+
+n is a perfect number if the sum of the factors of the number including 1 and excluding itself is n.
+For example,
+```math
+6 =1+2+3 and
+28=1+2+4+7+14
+```
+
+Define a class called **numberProblems** which has the following functions: <br>
++ **int nthPrime(int n)** - method that returns the nth prime number given as parameter. <br>
++ **void perfectNosBelow(int lim)** - which first prints out the nth prime number given as limit and then prints all perfect numbers less than lim.
+
+Each perfect number should be printed on a separate line along with its factors.  <br>
+For example, the output from **perfectNosBelow(500)** will be:
+
+```math
+500th prime number = 3571
+6   = (1,2,3)
+28  = (1,2,4,7,14)
+496 = ( (1, 2, 4, 8, 16, 31, 62, 124, 248)
+```
