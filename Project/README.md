@@ -61,3 +61,70 @@ For example, the output from **perfectNosBelow(500)** will be:
 28  = (1,2,4,7,14)
 496 = ( (1, 2, 4, 8, 16, 31, 62, 124, 248)
 ```
+
+----------------------------------------------------------------------------------------------------------------------------
+
+# 3
+
+197 is a **Keith Number** because it follows a specific pattern demonstrated hereunder: -
+```math
+197
+Step 1
+1+9+7
+=17
+Step 2
+9+7+17
+=33
+Step 3
+7+17+33
+=57
+Step 4
+17+33+57
+=107
+Step 5
+33+57+107
+=197
+```
+Write a program to print all **three digit Keith Numbers**
+
+----------------------------------------------------------------------------------------------------------------------------
+
+# 4
+Write a program to create a class named **Auxilium** with the following properties: -
+
+Instance variables/data members:
++ **int n** - to store the number using scanner class
++ **int c** - to count the factors of a number
++ **boolean a** - to store true if number is prime
++ **int sum** - to find the sum of the prime numbers
+
+Member methods:
++ **Auxilium()** - default constructor to initialize data members
++ **void input()** - method to input a number using scanner class
++ **boolean prime()** - method that checks if the original number as well as others are prime numbers or not. For e.g. Original number = 41 is a prime number
++ **void check()** - method to print the output – **“Auxilium Number”** if the combination of all the consecutive prime numbers up to the
+original number when added gives rise to the same number. 
+
+For e.g. <br>
+Original number = 41 <br>
+Combination = 2 + 3 + 5 + 7 + 11 + 13 = 41 <br>
+Result = Auxilium Number <br>
+
+For any other prime number not producing desired result, the program prints the message– **“Not an Auxilium Number”** and if the user inputs any composite number then the program prints – **“Sorry! Not Possible!”**.
+
+Write a main method to create the object of the class and call the above methods.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+# 5
+
+In a Pascal‟s Triangle the extreme left and right slot is guarded by 1 and the numbers in between are formed by adding the previous two numbers. For e.g.
+```math
+1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1
+```
+Write a program to print the Pascal‟s Triangle in such a way that if the user gives the input 5 then the computer print just the five rows of Pascal‟s Triangle.
+
