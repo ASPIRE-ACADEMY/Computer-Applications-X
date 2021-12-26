@@ -44,8 +44,8 @@ Program Here : [Link](https://github.com/Shiv-Learning-Cente/Computer-Applicatio
 n is a perfect number if the sum of the factors of the number including 1 and excluding itself is n.
 For example,
 ```math
-6 =1+2+3 and
-28=1+2+4+7+14
+6  = 1+2+3 and
+28 = 1+2+4+7+14
 ```
 
 Define a class called **numberProblems** which has the following functions: <br>
@@ -59,7 +59,7 @@ For example, the output from **perfectNosBelow(500)** will be:
 500th prime number = 3571
 6   = (1,2,3)
 28  = (1,2,4,7,14)
-496 = ( (1, 2, 4, 8, 16, 31, 62, 124, 248)
+496 = (1, 2, 4, 8, 16, 31, 62, 124, 248)
 ```
 
 ----------------------------------------------------------------------------------------------------------------------------
