@@ -69,21 +69,26 @@ For example, the output from **perfectNosBelow(500)** will be:
 197 is a **Keith Number** because it follows a specific pattern demonstrated hereunder: -
 ```math
 197
+
 Step 1
 1+9+7
-=17
+= 17
+
 Step 2
 9+7+17
-=33
+= 33
+
 Step 3
 7+17+33
-=57
+= 57
+
 Step 4
 17+33+57
-=107
+= 107
+
 Step 5
 33+57+107
-=197
+= 197
 ```
 Write a program to print all **three digit Keith Numbers**
 
